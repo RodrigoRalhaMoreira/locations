@@ -1,0 +1,4 @@
+def main(private field latitude, private field longitude) -> bool{
+	bool is_inside = (latitude <= 75 && latitude >= 70 && longitude <= 6);
+	return is_inside;
+}
